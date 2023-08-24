@@ -12,7 +12,13 @@ We have considered [InVS15 dataset](https://epjdatascience.springeropen.com/arti
  * <strong> Real-World  BLE Datasets </strong>
 We consider  [real-world BLE datasets](https://github.com/DP-3T/bt-measurements/tree/ba9f73962b35260e12e2c0a8a37af5c6195d22a8)collected considering five different scenarios: dining together at the table, "scenario01-lunch"; riding a train together, "scenario02-train";  working together in an open-space setting, "scenario03-work";  waiting in line at the supermarket, "scenario04-queue", and mingling in a club/bar, "scenario05 -party". %and participate in a gym class, "scenario06-movement."  
  These datasets were collected in laboratory conditions, and 20 users participated in these data collections (the information regarding 2 participants is missed, and the datasets are collected by the other 18 users) with different smartphone models. The duration of the data collection for each of these datasets is 30 minutes.
- 
+
+  <strong> Assuptions and Measures</strong>
+ In our simulations, we consider 1,000  runs with random COVID-19 infected users and random indexes for \silent{} users. The \emph{high-risk case  detection probability} is defined as the ratio of the detected high-risk cases to the total number of the high-risk cases, averaged over these  1,000  runs. A high-risk case is a person who has a high-risk contact with an infected person (the announced ones or the ones who are infected by announced ones and can transfer the virus to others after 4 days). The \emph{COVID-19 percentage} is also defined as the number of announced COVID-19 infected users to the total number of users. As discussed before, we assume that the \silent{} users do not install the application based on the DP-3T protocol. 
+
+   <strong> Codes</strong>
+
+   
  <strong>License and copyright </strong>
  
  Copyright of the experimental data and code belongs to Lund University and EPFL ?. For other uses of codes, please reach out via e-mail.
