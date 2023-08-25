@@ -167,7 +167,7 @@ for  B=10:10:Bmax
             end
             [covid_indexes1]=high_risk_contact(X_duration_after_delay,duration_threshold,covid_indexes1,l2);
             vv=[vv; covid_indexes1'];
-            %Now, when B percent of nodes are not avertizing
+            
             [covid_indexes2]=AP_DP_3T_FtF(X_duration_advertize_after_delay,duration_threshold,covid_indexes2,l2,erased_indexes,unerased_indexes);
             vv1=[vv1; covid_indexes2'];
 
