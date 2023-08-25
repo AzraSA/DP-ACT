@@ -1,6 +1,6 @@
 function [Passive_Percetage, high_risk_percentage_AP_DP3T, high_risk_percentage_DP3T, high_risk_percentage_DPACT]=High_risk_case_detection_versus_Passive_Percentage(A2,K,C)
 % Inputs:
-% A2 is the contact matrix containing the users indexes who had contacts and the time of contacts
+% A2 is the contact matrix containing the indexes of users who had contacts and the time of contacts
 % K is the iteration number
 % C is the COVID-19 Percentage
 
@@ -9,11 +9,11 @@ function [Passive_Percetage, high_risk_percentage_AP_DP3T, high_risk_percentage_
 % high_risk_percentage_DP3T is High-risk case detection Probabilities for DP-3T
 % high_risk_percentage_AP_DP3T is High-risk case detection Probabilities for A/P DP-3T
 % high_risk_percentage_DPACT is High-risk case detection Probabilities for DP-ACT
-% Passive_Percetage is a vector containing the corresponding percetages of passive users
+% Passive_Percetage is a vector containing the corresponding percentages of passive users
 
 
 
-% We replace the participant's numbers with 1 to the number of partcipants
+% We replace the participant's numbers with 1 to the number of participants
 A22=[A2(:,2); A2(:,3)];
 [a,b]=sort(A22);
 la22=numel(A22);A2prim=A2;
