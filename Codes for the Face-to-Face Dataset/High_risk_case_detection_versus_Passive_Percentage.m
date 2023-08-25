@@ -13,7 +13,7 @@ function [Passive_Percetage, high_risk_percentage_AP_DP3T, high_risk_percentage_
 
 
 
-% We replace the participant's numbers with 1 to the number of participants
+% We replace the participants' indexes with 1 to the number of participants
 A22=[A2(:,2); A2(:,3)];
 [a,b]=sort(A22);
 la22=numel(A22);A2prim=A2;
