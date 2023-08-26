@@ -98,7 +98,7 @@ for i=1:l2
     end
 end
 
-P=floor(HH/2);
+P=floor(HH/2)-1;
 
 high_risk_percentage_AP_DP3T=zeros(1,P);
 high_risk_percentage_DP3T=zeros(1,P);
