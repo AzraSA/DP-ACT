@@ -99,7 +99,7 @@ for i=1:l2
 end
 
 P=floor(HH/2);
-cc=(1:2:2*P)*100/l2;
+
 high_risk_percentage_AP_DP3T=zeros(1,P);
 high_risk_percentage_DP3T=zeros(1,P);
 high_risk_percentage_DPACT=zeros(1,P);
@@ -198,7 +198,7 @@ for  p=1:P
     Pfa(p)=pfa/l2/K*100;
 end
 
-C_percentage=(B*100/l2)
+C_percentage=(1:2:2*P)*100/l2;
 
 %M6=strcat("DP-3T (",num2str(B)," PU)");
 %M5=strcat("A/P DP-3T (",num2str(B)," PU)");
