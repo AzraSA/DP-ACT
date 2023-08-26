@@ -1,6 +1,6 @@
 function [C_percentage, high_risk_percentage_AP_DP3T, high_risk_percentage_DP3T, high_risk_percentage_DPACT]=High_risk_case_detection_versus_COVID_Percentage(A2,K,B)
 % Inputs:
-% A2 is the contact matrix containing the time of contacts,  the indexes of users who had contacts and the attenuation
+% A2 is the contact matrix containing the time of contacts (first column),  the indexes of users who had contacts (second and third columns) and the corresponding attenuations (fourth column)
 % K is the iteration number
 % B is the number of passive users
 
@@ -194,7 +194,7 @@ for  p=1:P
     end
     high_risk_percentage_AP_DP3T(p)=high_risk_percentage3/high_risk_ref;
     high_risk_percentage_DP3T(p)=high_risk_percentage4/high_risk_ref;
-    high_risk_percentage_DP_ACT(p)=high_risk_percentage5/high_risk_ref;
+    high_risk_percentage_DPACT(p)=high_risk_percentage5/high_risk_ref;
     Pfa(p)=pfa/l2/K*100;
 end
 
