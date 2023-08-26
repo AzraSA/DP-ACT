@@ -219,9 +219,9 @@ for  B=10:10:Bmax
             end
         end
     end
-    high_risk_percentage3_t(B/10)=high_risk_percentage3/high_risk_ref;
-    high_risk_percentage4_t(B/10)=high_risk_percentage4/high_risk_ref;
-    high_risk_percentage5_t(B/10)=high_risk_percentage5/high_risk_ref;
+    high_risk_percentage3_AP_DP3T(B/10)=high_risk_percentage3/high_risk_ref;
+    high_risk_percentage4_DP3T(B/10)=high_risk_percentage4/high_risk_ref;
+    high_risk_percentage5_DPACT(B/10)=high_risk_percentage5/high_risk_ref;
 end
 
 Passive_Percetage=10:10:Bmax;
