@@ -97,8 +97,8 @@ duration_threshold= 5*60;
 
 
 %% Now, we should consider the delay E for the propagation;
-%Let us consider a time frame for updating the covid_index. Lets updat
-%every E min
+%Let us consider a time frame for updating the covid_indexes. Lets updat them
+%every E seconds
 
 E=60*60*24*4;
 max_time=max( A2prim(:,1))
