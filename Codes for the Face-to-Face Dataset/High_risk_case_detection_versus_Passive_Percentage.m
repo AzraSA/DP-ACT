@@ -105,7 +105,7 @@ max_time=max( A2prim(:,1))
 min_time= min( A2prim(:,1))
 BB=(max_time-min_time)/E
 
-Bmax=70
+Bmax=70;
 high_risk_percentage_AP_DP3T=zeros(1,Bmax/10);
 high_risk_percentage_DP3T=zeros(1,Bmax/10);
 high_risk_percentage_DPACT=zeros(1,Bmax/10);
