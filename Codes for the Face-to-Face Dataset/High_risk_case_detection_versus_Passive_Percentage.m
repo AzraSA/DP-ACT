@@ -42,8 +42,8 @@ for i=2:la22
 end
 
 
-l2= max([max(A2prim(:,2)), max(A2prim(:,3))])
-l22=size(A2prim,1)
+l2= max([max(A2prim(:,2)), max(A2prim(:,3))]);
+l22=size(A2prim,1);
 
 X=cell(l2,1);
 
@@ -101,9 +101,9 @@ duration_threshold= 5*60;
 %every E seconds
 
 E=60*60*24*4;
-max_time=max( A2prim(:,1))
-min_time= min( A2prim(:,1))
-BB=(max_time-min_time)/E
+max_time=max( A2prim(:,1));
+min_time= min( A2prim(:,1));
+BB=(max_time-min_time)/E;
 
 Bmax=70;
 high_risk_percentage_AP_DP3T=zeros(1,Bmax/10);
