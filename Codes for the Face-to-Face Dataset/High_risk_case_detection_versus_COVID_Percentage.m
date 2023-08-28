@@ -228,16 +228,16 @@ end
 % M5=strcat("A/P DP-3T (",num2str(B)," PU)");
 % M66=strcat("DP-ACT (",num2str(B)," PU)");
 % figure(),
-% a5=plot(cc,high_risk_percentage3_t,'-g');
+% a5=plot(COVID_Percetage,high_risk_percentage_AP_DP3T,'-g');
 % hold on
-% a6=plot(cc,high_risk_percentage4_t, '-r');
+% a6=plot(COVID_Percetage,high_risk_percentage_DP3T, '-r');
 % hold on
-% a66=plot(cc,high_risk_percentage5_t, '-b');
+% a66=plot(COVID_Percetage,high_risk_percentage_DPACT, '-b');
 % ylabel('High-Risk Case Detection Probability')
 % xlabel('COVID-19 Precentage')
 % legend([a5,a6,a66], [M5,M6,M66]);
 % figure(),
-% plot(cc,Pfa/100);
+% plot(COVID_Percetage,Pfa/100);
 % ylabel('False Alarm Probability')
 % xlabel('COVID-19 Precentage')
 end
