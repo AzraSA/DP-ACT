@@ -1,6 +1,6 @@
 function [Passive_Percetage, high_risk_percentage_AP_DP3T, high_risk_percentage_DP3T, high_risk_percentage_DPACT]=High_risk_case_detection_versus_Passive_Percentage(A2,K,C)
 % Inputs:
-% A2 is the contact matrix containing the indexes of users who had contacts and the time of contacts
+% A2 is the contact matrix containing the time of contacts (first column),  the indexes of users who had contacts (second and third columns) and the corresponding attenuations (fourth column)
 % K is the iteration number
 % C is the number of infected users
 
