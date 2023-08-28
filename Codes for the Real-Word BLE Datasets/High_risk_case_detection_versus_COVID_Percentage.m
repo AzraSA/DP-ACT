@@ -55,14 +55,7 @@ for i=1:l22
     X{A2prim(i,3)}=[X{A2prim(i,3)} [A2prim(i,1); A2prim(i,2); A2prim(i,4)]];
 end
 
-X1=cell(l2,1);
-for i=1:l22
-    X1{A2prim(i,2)}=[X1{A2prim(i,2)} [A2prim(i,1); A2prim(i,3); A2prim(i,4)]];
-end
-
-
-
-
+X1=X;
 
 %First, we calculate the exposure score of the contacts and add them to X to achieve X_duration
 
