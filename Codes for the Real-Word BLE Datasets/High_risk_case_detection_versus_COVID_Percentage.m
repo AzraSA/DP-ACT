@@ -204,17 +204,17 @@ C_percentage=(1:2:2*P)*100/l2;
 %M5=strcat("A/P DP-3T (",num2str(B)," PU)");
 %M66=strcat("DP-ACT (",num2str(B)," PU)");
 %figure(),
-%a5=plot(cc,high_risk_percentage3_t,'-og');
+%a5=plot(C_percentage,high_risk_percentage_AP_DP3T,'-og');
 %hold on
-%a6=plot(cc,high_risk_percentage4_t, '-or');
+%a6=plot(C_percentage,high_risk_percentage_DP3T, '-or');
 %hold on
-%a66=plot(cc,high_risk_percentage5_t, '-ob');
+%a66=plot(C_percentage,high_risk_percentage_DPACT, '-ob');
 %ylabel('High-Risk Case Detection Probability', 'FontSize', 13)
 %xlabel('COVID-19 Percentage','FontSize', 13)
 %legend([a5,a6,a66], [M5,M6,M66]);%fontsize(gca,13,"pixels")
 
 %figure(),
-%a7=plot(cc,Pfa./100);
+%a7=plot(C_percentage,Pfa./100);
 %ylabel('False Alarm Probability', 'FontSize', 13)
 %xlabel('COVID-19 Precentage','FontSize', 13)
 
