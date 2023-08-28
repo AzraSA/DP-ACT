@@ -10,7 +10,7 @@ function [COVID_Percetage, high_risk_percentage_AP_DP3T, high_risk_percentage_DP
 % high_risk_percentage_DP3T is High-risk case detection Probabilities for DP-3T
 % high_risk_percentage_AP_DP3T is High-risk case detection Probabilities for A/P DP-3T
 % high_risk_percentage_DPACT is High-risk case detection Probabilities for DP-ACT
-% COVID_Percetage is a vector containing the corresponding COVID percetages
+% COVID_Percetage is a vector containing the corresponding COVID percentages
 
 % We replace the participant's numbers with 1 to the number of partcipants
 A22=[A2(:,2); A2(:,3)];
