@@ -9,7 +9,7 @@ function [C_percentage, high_risk_percentage_AP_DP3T, high_risk_percentage_DP3T,
 % high_risk_percentage_DP3T is High-risk case detection Probabilities for DP-3T
 % high_risk_percentage_AP_DP3T is High-risk case detection Probabilities for A/P DP-3T
 % high_risk_percentage_DPACT is High-risk case detection Probabilities for DP-ACT
-% C_Percetage is a vector containing the corresponding COVID-19 percetages
+% C_Percetage is a vector containing the corresponding COVID-19 percentages
 
 
 % We replace the participants' indexes with 1 to the number of participants:
