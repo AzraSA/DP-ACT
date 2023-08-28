@@ -229,17 +229,17 @@ Passive_Percetage=10:10:Bmax;
 % M5="A/P DP-3T";
 % M66="DP-ACT";
 % figure(),
-% a5=plot(cc,high_risk_percentage3_t,'-g');
+% a5=plot(Passive_Percetage, high_risk_percentage_AP_DP3T,'-g');
 % hold on
-% a6=plot(cc,high_risk_percentage4_t, '-r');
+% a6=plot(Passive_Percetage, high_risk_percentage_DP3T, '-r');
 % hold on
-% a66=plot(cc,high_risk_percentage5_t, '-b');
+% a66=plot(Passive_Percetage, high_risk_percentage_DPACT, '-b');
 % ylabel('High Risk Case Detection Probability', 'FontSize', 13)
 % xlabel('The Percentage of Passive Users', 'FontSize', 13)
 % legend([a5,a6,a66], [M5,M6,M66]);
 %
 % figure(),
-% a7=plot(cc,Pfa/100);
+% a7=plot(Passive_Percetage,Pfa/100);
 % ylabel('False Alarm Percentage', 'FontSize', 13)
 % xlabel('The Percentage of Passive Users', 'FontSize', 13)
 
