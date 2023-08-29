@@ -48,14 +48,13 @@ A2prim(:,1)= A2prim(:,1)- A2prim(1,1)
 l2= max([max(A2prim(:,2)), max(A2prim(:,3))])
 l22=size(A2prim,1)
 
-X=cell(l2,1);
+X1=cell(l2,1);
 
 for i=1:l22
-    X{A2prim(i,2)}=[X{A2prim(i,2)} [A2prim(i,1); A2prim(i,3); A2prim(i,4)]];
-    X{A2prim(i,3)}=[X{A2prim(i,3)} [A2prim(i,1); A2prim(i,2); A2prim(i,4)]];
+    X1{A2prim(i,2)}=[X1{A2prim(i,2)} [A2prim(i,1); A2prim(i,3); A2prim(i,4)]];
+    X1{A2prim(i,3)}=[X1{A2prim(i,3)} [A2prim(i,1); A2prim(i,2); A2prim(i,4)]];
 end
 
-X1=X;
 
 %First, we calculate the exposure score of the contacts and add them to X to achieve X_duration
 
