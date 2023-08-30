@@ -1,6 +1,6 @@
 function [Passive_Percetage, high_risk_percentage_AP_DP3T, high_risk_percentage_DP3T, high_risk_percentage_DPACT]=High_risk_case_detection_versus_Passive_Percentage(A2,K,C)
 % Inputs:
-% A2 is the contact matrix containing the time of contacts (first column),  the indexes of users who had contacts (second and third columns) and the corresponding attenuations (fourth column)
+% A2 is the contact matrix containing the time of contacts (first column),  the indexes of users who had contacts (second and third columns) and the corresponding attenuations (fourth column); We calculate the attenuation by function MODEL_RX_TX_COMPENSATION and for simplicity, assume that both devices involved in a contact calculate the correct attenuation, i.e., there is not any error with the attenuation (it precisely indicates the distances between the devices)
 % K is the iteration number
 % C is the number of infected users
 
